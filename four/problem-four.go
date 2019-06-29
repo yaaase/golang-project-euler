@@ -26,11 +26,10 @@ func LargestPalindromicProduct() int {
 func IsPalindrome(n int) bool {
 	chars := strings.Split(strconv.Itoa(n), "")
 
-	for i, j := 0, len(chars)-1; j > i; i++ {
+	for i, j := 0, len(chars)-1; j > i; i, j = i+1, j-1 {
 		if chars[i] != chars[j] {
 			return false
 		}
-		j--
 	}
 	return true
 }
