@@ -9,6 +9,7 @@ import (
 	"project-euler/six"
 	"project-euler/sixteen"
 	"project-euler/three"
+	"project-euler/twenty"
 	"project-euler/two"
 )
 
@@ -21,4 +22,5 @@ func main() {
 	fmt.Printf("Problem six: %v\n", six.ProblemSix())
 	fmt.Printf("Problem seven: %v\n", seven.Sieve())
 	fmt.Printf("Problem sixteen: %v\n", sixteen.ProblemSixteen())
+	fmt.Printf("Problem twenty: %v\n", twenty.ProblemTwenty())
 }
