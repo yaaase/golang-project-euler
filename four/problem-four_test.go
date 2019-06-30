@@ -2,7 +2,7 @@ package four
 
 import "testing"
 
-func TestIsPalindrome(t *testing.T) {
+func Test_IsPalindrome(t *testing.T) {
 	type args struct {
 		n int
 	}

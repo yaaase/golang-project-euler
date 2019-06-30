@@ -29,7 +29,7 @@ func Test_IsPrime(t *testing.T) {
 	}
 }
 
-func TestLargestPrimeFactorOf(t *testing.T) {
+func Test_LargestPrimeFactorOf(t *testing.T) {
 	type args struct {
 		n int
 	}
