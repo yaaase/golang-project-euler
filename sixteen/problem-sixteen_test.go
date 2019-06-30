@@ -4,7 +4,7 @@ import "testing"
 
 func TestSumOfDigits(t *testing.T) {
 	type args struct {
-		x int
+		x float64
 	}
 	tests := []struct {
 		name string
