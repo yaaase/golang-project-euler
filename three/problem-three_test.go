@@ -38,7 +38,6 @@ func TestLargestPrimeFactorOf(t *testing.T) {
 		args args
 		want int
 	}{
-		{"LPF of 20 is 5", args{20}, 5},
 		{"LPF of 13195 is 29", args{13195}, 29},
 	}
 	for _, tt := range tests {
