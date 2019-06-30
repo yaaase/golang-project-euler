@@ -19,6 +19,7 @@ func Test_IsPrime(t *testing.T) {
 		{"11 is prime", args{11}, true},
 		{"29 is prime", args{29}, true},
 		{"50 is not prime", args{50}, false},
+		{"100 is not prime", args{100}, false},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
