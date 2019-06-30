@@ -5,6 +5,7 @@ import (
 	"project-euler/five"
 	"project-euler/four"
 	"project-euler/one"
+	"project-euler/seven"
 	"project-euler/six"
 
 	"project-euler/two"
@@ -17,4 +18,5 @@ func main() {
 	fmt.Printf("Problem four: %v\n", four.LargestPalindromicProduct())
 	fmt.Printf("Problem five: %v\n", five.SmallestMultiple(20))
 	fmt.Printf("Problem six: %v\n", six.ProblemSix())
+	fmt.Printf("Problem seven: %v\n", seven.Sieve())
 }
