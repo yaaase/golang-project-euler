@@ -12,6 +12,8 @@ func TestSumOfDigits(t *testing.T) {
 		want int
 	}{
 		{"Sum of 1234 is 10", args{1234}, 10},
+		{"Sum of 50505 is 15", args{50505}, 15},
+		{"Sum of 123456 is 21", args{123456}, 21},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
