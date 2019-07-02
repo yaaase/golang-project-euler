@@ -14,6 +14,7 @@ func Test_isDivisibleByAll(t *testing.T) {
 	}{
 		{"6 is evenly divisible from 1 to 3", args{6, 3}, true},
 		{"2520 is evenly divisible from 1 to 10", args{2520, 10}, true},
+		{"10 is not evenly divisible from 1 to 3", args{10, 3}, false},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
