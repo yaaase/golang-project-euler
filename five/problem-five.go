@@ -10,7 +10,7 @@ func SmallestMultiple(upperBound int) int {
 }
 
 func isDivisibleByAll(n int, m int) bool {
-	for j := m; j > 0; j-- {
+	for j := m; j > 1; j-- {
 		if n%j != 0 {
 			return false
 		}
